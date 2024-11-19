@@ -13,7 +13,7 @@ const Resume = () => {
 
   function download() {
     var link = document.createElement('a');
-    link.href = "https://drive.google.com/file/d/1vJhT2IJ6aKCOPrmpr5qfErsQFsvrefW2/view?usp=share_link";
+    link.href = "https://docs.google.com/document/d/19ZzQ65i4QDttMrhH8B4GBGHi2SVom6UgwtbUIYUZBf0/export?format=pdf";
     link.download = 'true';
     document.body.appendChild(link);
     link.click();
