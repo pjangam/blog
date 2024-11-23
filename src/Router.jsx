@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 const Landing = lazy(() => import('./Pages/Landing'));
 const Resume = lazy(() => import('./Pages/Resume'));

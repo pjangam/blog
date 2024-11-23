@@ -56,5 +56,6 @@
     "@types/react-router-dom": "^5.1",
     "@types/react-world-flags": "^1.4",
     "coverage": "^0.4"
-  }
+  },
+  "homepage": "https://pjangam.github.io"
 }

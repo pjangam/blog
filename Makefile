@@ -18,7 +18,7 @@ cover: ## run code coverage
 
 .PHONY: run
 run: ## run in development mode
-	npm start
+	NODE_OPTIONS=--openssl-legacy-provider npm start
 
 .PHONY: clean
 clean: ## clean dependencies and build
