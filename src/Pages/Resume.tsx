@@ -32,7 +32,7 @@ const Resume = () => {
       <Button outline color="success" onClick={download} style={{ "float": "right", "marginRight": "50px" }}>Download <i className="fa fa-download"></i></Button><br /><br /><br />
       <iframe
         title="GoogleDocsResume"
-        src="https://docs.google.com/document/d/e/2PACX-1vTYw3mlJWRGV0dsLdmtz2RCMVoNwYf_pZWhOn5IpSpU62gw9QTkJQMr_DltgY4UvpyaA91rE0kZyFNP/pub"
+        src="https://docs.google.com/document/d/e/2PACX-1vTYw3mlJWRGV0dsLdmtz2RCMVoNwYf_pZWhOn5IpSpU62gw9QTkJQMr_DltgY4UvpyaA91rE0kZyFNP/pub?embeded=true"
         style={style}
       ></iframe>
     </div>
